@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS db_excel;
+USE db_excel;
+
+
+/*Tabla productos*/
+CREATE TABLE productos(
+	id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	producto VARCHAR(50) NOT NULL,
+	modelo VARCHAR(20) NOT NULL,
+	precio VARCHAR(9) NOT NULL
+);
