@@ -10,9 +10,9 @@
 	$num_rows = $objPHPExcel->setActiveSheetIndex(0)->getHighestRow();
 	echo '<table border = 1>
 		<tr>
-			<td>Producto</td>
-			<td>Modelo</td>
-			<td>Precio</td>
+			<td>PRODUCTO</td>
+			<td>MODELO</td>
+			<td>PRECIO</td>
 		</tr>';
 
 		for ($i = 2; $i <= $num_rows; $i++) {
